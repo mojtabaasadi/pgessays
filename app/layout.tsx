@@ -1,5 +1,5 @@
-import DarkModeButton from "./components/DarkmodeBtn.tsx";
-import ThemeProvider from "./components/ThemeProvider.tsx";
+import DarkModeButton from "./components/DarkmodeBtn";
+import ThemeProvider from "./components/ThemeProvider";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Vazirmatn } from "next/font/google";

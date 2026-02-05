@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import ArticleContent from './content.mdx'
 
 export const metadata: Metadata = {

@@ -31,6 +31,9 @@ devDependencies:
   '@tailwindcss/postcss':
     specifier: ^4.1.18
     version: 4.1.18
+  '@types/mdx':
+    specifier: ^2.0.13
+    version: 2.0.13
   '@types/node':
     specifier: ^20
     version: 20.19.30
@@ -964,7 +967,6 @@ packages:
 
   /@types/mdx@2.0.13:
     resolution: {integrity: sha512-+OWZQfAYyio6YkJb3HLxDrvnx6SWWDbC0zVPfBRzUk0/nqoDyf6dNxQi3eArPe8rJ473nobTMQ/8Zk+LxJ+Yuw==}
-    dev: false
 
   /@types/ms@2.1.0:
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
