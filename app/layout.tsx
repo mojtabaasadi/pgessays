@@ -23,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="fa" dir="rtl" suppressHydrationWarning className={vazirmatn.variable}>
       <head>
+        <link rel="shortcut icon" href="http://ycombinator.com/arc/arc.png" /> 
         <script
           dangerouslySetInnerHTML={{
             __html: `
