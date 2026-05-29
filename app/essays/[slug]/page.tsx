@@ -10,11 +10,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { slug } = await params
   const titles: Record<string, string> = {
     identity: "هویتت را کوچک نگه دار",
+    wealth: "چطور ثروت بسازیم",
   }
   
   return {
     title: titles[slug] ?? slug,
-  }
+  } 
 }
 
 export async function generateStaticParams() {
