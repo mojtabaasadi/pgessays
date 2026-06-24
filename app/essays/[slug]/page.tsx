@@ -11,6 +11,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const titles: Record<string, string> = {
     identity: "هویتت را کوچک نگه دار",
     wealth: "چطور ثروت بسازیم",
+    read: "نیاز به خواندن",
   }
   
   return {
